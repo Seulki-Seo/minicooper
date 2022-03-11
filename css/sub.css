@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/*서브*/
+#sub_main .main_top h2 {
+	font-size: 38px;
+	font-weight: 400;
+	padding-top: 40px;
+}
+#sub_main .main_top .main_line {
+	background: url(../images/sub_main_line.png) no-repeat center top/cover;
+	height: 91px;
+}
+
+/*브레드 크럼*/
+#sub_main .path {
+	text-align: right;
+}
+#sub_main .path .bread {
+	display: inline-flex;
+	width: 25%;
+	justify-content: space-between;
+	padding: 15px 0;
+	font-size: 14px;
+	z-index: 1;
+}
+
+/*서브 네비게이션*/
+#sub_main .snb {
+	display: inline-flex;
+	width: 100%;
+	height: 60px;
+	border: 2px solid #ccc;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 30px;
+}
+#sub_main .snb li:nth-of-type(1) a {
+	border-bottom: 2px solid #ccc;
+	font-weight: 700;
+}
+
+#sub_main .snb li:hover a {
+	border-bottom: 2px solid #ccc;
+}
+
+/*서브 컨텐츠 타이틀*/
+#sub_main .main_contents .head_txt {
+	padding: 30px 0 60px;
+}
+#sub_main .main_contents .head_txt h3 {
+	font-size: 34px;
+}
+#sub_main .main_contents .head_txt p {
+	font-size: 26px;
+}
+
+/*비디오*/
+#sub_main .main_contents .video {
+	margin-bottom: 115px;
+}
+#sub_main .main_contents .video p {
+	font-size: 14px;
+	color: #666;
+	padding-top: 5px;
+}
+
+/*어플 상세 소개*/
+#sub_main .main_contents .ex_list .txt h4,
+#sub_main .main_contents .app .txt h4 {
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+
+#sub_main .main_contents .ex_list li {
+	position: relative;
+	height: 600px;
+	margin: 120px 0;
+}
+#sub_main .main_contents .ex_list .txt {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 467px;
+}
+#sub_main .main_contents .ex_list .txt img {
+	padding: 150px 0 40px;
+}
+#sub_main .main_contents .ex_list .pic {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/*어플 다운로드 소개*/
+#sub_main .main_contents .app {
+	position: relative;
+	height: 340px;
+	padding-bottom: 160px;
+}
+#sub_main .main_contents .app .pic {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#sub_main .main_contents .app .txt {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 480px;
+}
+
+/*어플 다운로드 버튼*/
+#sub_main .main_contents .app .txt .btn_area {
+	margin-top: 30px;
+}
+#sub_main .main_contents .app .txt .btn_area .btn {
+	margin-right: 30px;
+}
+#sub_main .main_contents .app .txt .btn_area i {
+	margin-right: 5px;
+}
+
+#sub_main .main_contents .app .txt .btn_area .apple:hover,
+#sub_main .main_contents .app .txt .btn_area .google:hover {
+	text-decoration: underline;
+}
